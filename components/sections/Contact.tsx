@@ -42,7 +42,6 @@ export default function Contact() {
         {[
           { key: "github",   val: personalInfo.github,   color: "#cccccc" },
           { key: "linkedin", val: personalInfo.linkedin, color: "#0a66c2" },
-          { key: "twitter",  val: personalInfo.twitter,  color: "#1da1f2" },
           { key: "email",    val: personalInfo.email,    color: "#4ec9b0" },
         ].map(({ key, val, color }) => (
           <div key={key} className="hover:bg-[#2a2d2e] px-2 rounded-sm">
@@ -66,7 +65,6 @@ export default function Contact() {
           {[
             { label: "GitHub", href: personalInfo.github, icon: "⌥", color: "#cccccc" },
             { label: "LinkedIn", href: personalInfo.linkedin, icon: "in", color: "#0a66c2" },
-            { label: "Twitter", href: personalInfo.twitter, icon: "𝕏", color: "#1da1f2" },
             { label: "Email", href: `mailto:${personalInfo.email}`, icon: "@", color: "#4ec9b0" },
           ].map((s) => (
             <a
