@@ -152,7 +152,7 @@ export default function Contact() {
               </label>
               <textarea
                 rows={5}
-                placeholder="Hi Alex, I'd love to chat about..."
+                placeholder="Hi Prisha, I'd love to chat about..."
                 value={form.message}
                 onChange={(e) => setForm({ ...form, message: e.target.value })}
                 onFocus={() => setFocused("message")}

@@ -4,7 +4,7 @@ import { personalInfo } from "@/lib/data";
 import LineNumbers from "@/components/ui/LineNumbers";
 
 const lines = [
-  { tokens: [{ t: "comment", v: "// about.tsx — Alex Rivera" }] },
+  { tokens: [{ t: "comment", v: "// about.tsx — Prisha Vadhavkar" }] },
   { tokens: [] },
   { tokens: [{ t: "keyword", v: "import" }, { t: "plain", v: " type " }, { t: "type", v: "Developer" }, { t: "plain", v: " from " }, { t: "string", v: '"@/types"' }] },
   { tokens: [] },
