@@ -91,6 +91,18 @@ export const experience = [
     tech: ["GitHub", "Open Source"],
     color: "#4ec9b0",
   },
+  {
+  company: "Reliance Jio",
+  role: "Full Stack Developer Intern",
+  period: "May 2026 — Jun 2026",
+  location: "Navi Mumbai, Maharashtra, India",
+  description: [
+    "Developed a B2B web application from scratch using modern full-stack technologies.",
+    "Built responsive frontend interfaces, integrated REST APIs, and collaborated with mentors to deliver production-ready features.",
+  ],
+  tech: ["Next.js", "TypeScript", "Tailwind CSS", "Node.js", "Express.js", "PostgreSQL"],
+  color: "#3b82f6",
+},
 ];
 
 export const education = [
